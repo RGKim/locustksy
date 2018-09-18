@@ -1,0 +1,32 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/Users/ksy/Work/Locust-code/.tox/py27/bin/python', '-m', 'pip', 'install', 'codecov', 'mock']
+
+Collecting codecov
+  Downloading https://files.pythonhosted.org/packages/8b/28/4c1950a61c3c5786f0f34d643d0d28ec832433c9a7c0bd157690d4eb1d5f/codecov-2.0.15-py2.py3-none-any.whl
+Collecting mock
+  Downloading https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl (56kB)
+Collecting coverage (from codecov)
+  Using cached https://files.pythonhosted.org/packages/8a/27/68ca17e26df117a993dec8f590929670f96a976de56d52e6b6c939156013/coverage-4.5.1-cp27-cp27m-macosx_10_12_x86_64.whl
+Collecting requests>=2.7.9 (from codecov)
+  Downloading https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl (91kB)
+Collecting pbr>=0.11 (from mock)
+  Downloading https://files.pythonhosted.org/packages/69/1c/98cba002ed975a91a0294863d9c774cc0ebe38e05bbb65e83314550b1677/pbr-4.2.0-py2.py3-none-any.whl (100kB)
+Collecting six>=1.9 (from mock)
+  Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock)
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting certifi>=2017.4.17 (from requests>=2.7.9->codecov)
+  Downloading https://files.pythonhosted.org/packages/df/f7/04fee6ac349e915b82171f8e23cee63644d83663b34c539f7a09aed18f9e/certifi-2018.8.24-py2.py3-none-any.whl (147kB)
+Collecting idna<2.8,>=2.5 (from requests>=2.7.9->codecov)
+  Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+Collecting urllib3<1.24,>=1.21.1 (from requests>=2.7.9->codecov)
+  Downloading https://files.pythonhosted.org/packages/bd/c9/6fdd990019071a4a32a5e7cb78a1d92c53851ef4f56f62a3486e6a7d8ffb/urllib3-1.23-py2.py3-none-any.whl (133kB)
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.7.9->codecov)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+locustio 0.9.0 requires flask>=0.10.1, which is not installed.
+locustio 0.9.0 requires gevent>=1.2.2, which is not installed.
+locustio 0.9.0 requires msgpack>=0.4.2, which is not installed.
+locustio 0.9.0 requires pyzmq>=16.0.2, which is not installed.
+Installing collected packages: coverage, certifi, idna, urllib3, chardet, requests, codecov, pbr, six, funcsigs, mock
+Successfully installed certifi-2018.8.24 chardet-3.0.4 codecov-2.0.15 coverage-4.5.1 funcsigs-1.0.2 idna-2.7 mock-2.0.0 pbr-4.2.0 requests-2.19.1 six-1.11.0 urllib3-1.23

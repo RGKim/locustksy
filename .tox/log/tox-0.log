@@ -1,0 +1,137 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/local/opt/python@2/bin/python2.7', local('/Users/ksy/Work/Locust-code/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/ksy/Work/Locust-code/.tox/dist')]
+
+running sdist
+running egg_info
+writing requirements to locustksy.egg-info/requires.txt
+writing locustksy.egg-info/PKG-INFO
+writing top-level names to locustksy.egg-info/top_level.txt
+writing dependency_links to locustksy.egg-info/dependency_links.txt
+writing entry points to locustksy.egg-info/entry_points.txt
+reading manifest file 'locustksy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'locustksy.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating locustksy-0.9.0
+creating locustksy-0.9.0/locust
+creating locustksy-0.9.0/locust/rpc
+creating locustksy-0.9.0/locust/static
+creating locustksy-0.9.0/locust/static/img
+creating locustksy-0.9.0/locust/templates
+creating locustksy-0.9.0/locust/test
+creating locustksy-0.9.0/locust/util
+creating locustksy-0.9.0/locustksy.egg-info
+copying files to locustksy-0.9.0...
+copying MANIFEST.in -> locustksy-0.9.0
+copying README -> locustksy-0.9.0
+copying setup.cfg -> locustksy-0.9.0
+copying setup.py -> locustksy-0.9.0
+copying locust/__init__.py -> locustksy-0.9.0/locust
+copying locust/clients.py -> locustksy-0.9.0/locust
+copying locust/core.py -> locustksy-0.9.0/locust
+copying locust/events.py -> locustksy-0.9.0/locust
+copying locust/exception.py -> locustksy-0.9.0/locust
+copying locust/inspectlocust.py -> locustksy-0.9.0/locust
+copying locust/log.py -> locustksy-0.9.0/locust
+copying locust/main.py -> locustksy-0.9.0/locust
+copying locust/runners.py -> locustksy-0.9.0/locust
+copying locust/stats.py -> locustksy-0.9.0/locust
+copying locust/web.py -> locustksy-0.9.0/locust
+copying locust/rpc/__init__.py -> locustksy-0.9.0/locust/rpc
+copying locust/rpc/protocol.py -> locustksy-0.9.0/locust/rpc
+copying locust/rpc/zmqrpc.py -> locustksy-0.9.0/locust/rpc
+copying locust/static/chart.js -> locustksy-0.9.0/locust/static
+copying locust/static/echarts.common.min.js -> locustksy-0.9.0/locust/static
+copying locust/static/jquery-1.11.3.min.js -> locustksy-0.9.0/locust/static
+copying locust/static/jquery.jqote2.min.js -> locustksy-0.9.0/locust/static
+copying locust/static/jquery.tools.min.js -> locustksy-0.9.0/locust/static
+copying locust/static/locust.js -> locustksy-0.9.0/locust/static
+copying locust/static/style.css -> locustksy-0.9.0/locust/static
+copying locust/static/vintage.js -> locustksy-0.9.0/locust/static
+copying locust/static/img/favicon.ico -> locustksy-0.9.0/locust/static/img
+copying locust/static/img/logo.png -> locustksy-0.9.0/locust/static/img
+copying locust/static/img/top_bg.png -> locustksy-0.9.0/locust/static/img
+copying locust/templates/index.html -> locustksy-0.9.0/locust/templates
+copying locust/test/__init__.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_client.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_locust_class.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_main.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_parser.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_runners.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_stats.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_task_sequence_class.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_taskratio.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_util.py -> locustksy-0.9.0/locust/test
+copying locust/test/test_web.py -> locustksy-0.9.0/locust/test
+copying locust/test/testcases.py -> locustksy-0.9.0/locust/test
+copying locust/util/__init__.py -> locustksy-0.9.0/locust/util
+copying locust/util/cache.py -> locustksy-0.9.0/locust/util
+copying locust/util/time.py -> locustksy-0.9.0/locust/util
+copying locustksy.egg-info/PKG-INFO -> locustksy-0.9.0/locustksy.egg-info
+copying locustksy.egg-info/SOURCES.txt -> locustksy-0.9.0/locustksy.egg-info
+copying locustksy.egg-info/dependency_links.txt -> locustksy-0.9.0/locustksy.egg-info
+copying locustksy.egg-info/entry_points.txt -> locustksy-0.9.0/locustksy.egg-info
+copying locustksy.egg-info/not-zip-safe -> locustksy-0.9.0/locustksy.egg-info
+copying locustksy.egg-info/requires.txt -> locustksy-0.9.0/locustksy.egg-info
+copying locustksy.egg-info/top_level.txt -> locustksy-0.9.0/locustksy.egg-info
+Writing locustksy-0.9.0/setup.cfg
+creating '.tox/dist/locustksy-0.9.0.zip' and adding 'locustksy-0.9.0' to it
+adding 'locustksy-0.9.0/PKG-INFO'
+adding 'locustksy-0.9.0/MANIFEST.in'
+adding 'locustksy-0.9.0/README'
+adding 'locustksy-0.9.0/setup.py'
+adding 'locustksy-0.9.0/setup.cfg'
+adding 'locustksy-0.9.0/locust/exception.py'
+adding 'locustksy-0.9.0/locust/web.py'
+adding 'locustksy-0.9.0/locust/log.py'
+adding 'locustksy-0.9.0/locust/events.py'
+adding 'locustksy-0.9.0/locust/inspectlocust.py'
+adding 'locustksy-0.9.0/locust/__init__.py'
+adding 'locustksy-0.9.0/locust/core.py'
+adding 'locustksy-0.9.0/locust/stats.py'
+adding 'locustksy-0.9.0/locust/clients.py'
+adding 'locustksy-0.9.0/locust/runners.py'
+adding 'locustksy-0.9.0/locust/main.py'
+adding 'locustksy-0.9.0/locust/test/test_parser.py'
+adding 'locustksy-0.9.0/locust/test/test_stats.py'
+adding 'locustksy-0.9.0/locust/test/test_web.py'
+adding 'locustksy-0.9.0/locust/test/__init__.py'
+adding 'locustksy-0.9.0/locust/test/test_util.py'
+adding 'locustksy-0.9.0/locust/test/test_runners.py'
+adding 'locustksy-0.9.0/locust/test/test_taskratio.py'
+adding 'locustksy-0.9.0/locust/test/test_task_sequence_class.py'
+adding 'locustksy-0.9.0/locust/test/testcases.py'
+adding 'locustksy-0.9.0/locust/test/test_locust_class.py'
+adding 'locustksy-0.9.0/locust/test/test_client.py'
+adding 'locustksy-0.9.0/locust/test/test_main.py'
+adding 'locustksy-0.9.0/locust/util/time.py'
+adding 'locustksy-0.9.0/locust/util/cache.py'
+adding 'locustksy-0.9.0/locust/util/__init__.py'
+adding 'locustksy-0.9.0/locust/static/jquery-1.11.3.min.js'
+adding 'locustksy-0.9.0/locust/static/chart.js'
+adding 'locustksy-0.9.0/locust/static/jquery.jqote2.min.js'
+adding 'locustksy-0.9.0/locust/static/echarts.common.min.js'
+adding 'locustksy-0.9.0/locust/static/style.css'
+adding 'locustksy-0.9.0/locust/static/jquery.tools.min.js'
+adding 'locustksy-0.9.0/locust/static/locust.js'
+adding 'locustksy-0.9.0/locust/static/vintage.js'
+adding 'locustksy-0.9.0/locust/static/img/favicon.ico'
+adding 'locustksy-0.9.0/locust/static/img/logo.png'
+adding 'locustksy-0.9.0/locust/static/img/top_bg.png'
+adding 'locustksy-0.9.0/locust/templates/index.html'
+adding 'locustksy-0.9.0/locust/rpc/zmqrpc.py'
+adding 'locustksy-0.9.0/locust/rpc/protocol.py'
+adding 'locustksy-0.9.0/locust/rpc/__init__.py'
+adding 'locustksy-0.9.0/locustksy.egg-info/PKG-INFO'
+adding 'locustksy-0.9.0/locustksy.egg-info/not-zip-safe'
+adding 'locustksy-0.9.0/locustksy.egg-info/SOURCES.txt'
+adding 'locustksy-0.9.0/locustksy.egg-info/entry_points.txt'
+adding 'locustksy-0.9.0/locustksy.egg-info/requires.txt'
+adding 'locustksy-0.9.0/locustksy.egg-info/top_level.txt'
+adding 'locustksy-0.9.0/locustksy.egg-info/dependency_links.txt'
+removing 'locustksy-0.9.0' (and everything under it)
