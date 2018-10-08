@@ -1,0 +1,142 @@
+actionid: py27
+msg: installpkg
+cmdargs: ['/Users/ksy/Work/Locust-code/.tox/py27/bin/python', '-m', 'pip', 'install', '-U', '--no-deps', '/Users/ksy/Work/Locust-code/.tox/dist/locustksy-0.9.1.zip']
+
+Processing ./.tox/dist/locustksy-0.9.1.zip
+Building wheels for collected packages: locustksy
+  Running setup.py bdist_wheel for locustksy: started
+  Running setup.py bdist_wheel for locustksy: finished with status 'error'
+  Complete output from command /Users/ksy/Work/Locust-code/.tox/py27/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/gc/j8vhc6l53q95m27t6mv40q240000gn/T/pip-req-build-v6yZ67/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/var/folders/gc/j8vhc6l53q95m27t6mv40q240000gn/T/pip-wheel-K_nmkM --python-tag cp27:
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/locust
+  copying locust/exception.py -> build/lib/locust
+  copying locust/web.py -> build/lib/locust
+  copying locust/log.py -> build/lib/locust
+  copying locust/events.py -> build/lib/locust
+  copying locust/inspectlocust.py -> build/lib/locust
+  copying locust/__init__.py -> build/lib/locust
+  copying locust/core.py -> build/lib/locust
+  copying locust/stats.py -> build/lib/locust
+  copying locust/clients.py -> build/lib/locust
+  copying locust/runners.py -> build/lib/locust
+  copying locust/main.py -> build/lib/locust
+  creating build/lib/locust/test
+  copying locust/test/test_parser.py -> build/lib/locust/test
+  copying locust/test/test_stats.py -> build/lib/locust/test
+  copying locust/test/test_web.py -> build/lib/locust/test
+  copying locust/test/__init__.py -> build/lib/locust/test
+  copying locust/test/test_util.py -> build/lib/locust/test
+  copying locust/test/test_runners.py -> build/lib/locust/test
+  copying locust/test/test_taskratio.py -> build/lib/locust/test
+  copying locust/test/test_task_sequence_class.py -> build/lib/locust/test
+  copying locust/test/testcases.py -> build/lib/locust/test
+  copying locust/test/test_locust_class.py -> build/lib/locust/test
+  copying locust/test/test_client.py -> build/lib/locust/test
+  copying locust/test/test_main.py -> build/lib/locust/test
+  creating build/lib/locust/util
+  copying locust/util/time.py -> build/lib/locust/util
+  copying locust/util/cache.py -> build/lib/locust/util
+  copying locust/util/__init__.py -> build/lib/locust/util
+  creating build/lib/locust/rpc
+  copying locust/rpc/zmqrpc.py -> build/lib/locust/rpc
+  copying locust/rpc/protocol.py -> build/lib/locust/rpc
+  copying locust/rpc/__init__.py -> build/lib/locust/rpc
+  running egg_info
+  writing requirements to locustksy.egg-info/requires.txt
+  writing locustksy.egg-info/PKG-INFO
+  writing entry points to locustksy.egg-info/entry_points.txt
+  writing dependency_links to locustksy.egg-info/dependency_links.txt
+  writing top-level names to locustksy.egg-info/top_level.txt
+  reading manifest file 'locustksy.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  writing manifest file 'locustksy.egg-info/SOURCES.txt'
+  creating build/lib/locust/static
+  copying locust/static/chart.js -> build/lib/locust/static
+  copying locust/static/echarts.common.min.js -> build/lib/locust/static
+  copying locust/static/jquery-1.11.3.min.js -> build/lib/locust/static
+  copying locust/static/jquery.jqote2.min.js -> build/lib/locust/static
+  copying locust/static/jquery.tools.min.js -> build/lib/locust/static
+  copying locust/static/locust.js -> build/lib/locust/static
+  copying locust/static/style.css -> build/lib/locust/static
+  copying locust/static/vintage.js -> build/lib/locust/static
+  creating build/lib/locust/static/img
+  copying locust/static/img/favicon.ico -> build/lib/locust/static/img
+  copying locust/static/img/logo.png -> build/lib/locust/static/img
+  copying locust/static/img/top_bg.png -> build/lib/locust/static/img
+  creating build/lib/locust/templates
+  copying locust/templates/index.html -> build/lib/locust/templates
+  installing to build/bdist.macosx-10.13-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-10.13-x86_64
+  creating build/bdist.macosx-10.13-x86_64/wheel
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/exception.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/web.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_parser.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_stats.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_web.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/__init__.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_util.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_runners.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_taskratio.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_task_sequence_class.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/testcases.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_locust_class.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_client.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  copying build/lib/locust/test/test_main.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/test
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust/util
+  copying build/lib/locust/util/time.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/util
+  copying build/lib/locust/util/cache.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/util
+  copying build/lib/locust/util/__init__.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/util
+  copying build/lib/locust/log.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/events.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/inspectlocust.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/__init__.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/core.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/jquery-1.11.3.min.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/chart.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/jquery.jqote2.min.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/echarts.common.min.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust/static/img
+  copying build/lib/locust/static/img/favicon.ico -> build/bdist.macosx-10.13-x86_64/wheel/locust/static/img
+  copying build/lib/locust/static/img/logo.png -> build/bdist.macosx-10.13-x86_64/wheel/locust/static/img
+  copying build/lib/locust/static/img/top_bg.png -> build/bdist.macosx-10.13-x86_64/wheel/locust/static/img
+  copying build/lib/locust/static/style.css -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/jquery.tools.min.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/locust.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/static/vintage.js -> build/bdist.macosx-10.13-x86_64/wheel/locust/static
+  copying build/lib/locust/stats.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/clients.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  copying build/lib/locust/runners.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust/templates
+  copying build/lib/locust/templates/index.html -> build/bdist.macosx-10.13-x86_64/wheel/locust/templates
+  copying build/lib/locust/main.py -> build/bdist.macosx-10.13-x86_64/wheel/locust
+  creating build/bdist.macosx-10.13-x86_64/wheel/locust/rpc
+  copying build/lib/locust/rpc/zmqrpc.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/rpc
+  copying build/lib/locust/rpc/protocol.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/rpc
+  copying build/lib/locust/rpc/__init__.py -> build/bdist.macosx-10.13-x86_64/wheel/locust/rpc
+  running install_egg_info
+  Copying locustksy.egg-info to build/bdist.macosx-10.13-x86_64/wheel/locustksy-0.9.1-py2.7.egg-info
+  running install_scripts
+  error: [Errno 2] No such file or directory: 'LICENSE'
+  
+  ----------------------------------------
+  Failed building wheel for locustksy
+  Running setup.py clean for locustksy
+Failed to build locustksy
+Installing collected packages: locustksy
+  Found existing installation: locustksy 0.9.1
+    Not uninstalling locustksy at /Users/ksy/Work/Locust-code, outside environment /Users/ksy/Work/Locust-code/.tox/py27/bin/..
+    Can't uninstall 'locustksy'. No files were found to uninstall.
+  Running setup.py install for locustksy: started
+    Running setup.py install for locustksy: finished with status 'done'
+Successfully installed locustksy-0.9.1
+You are using pip version 18.0, however version 18.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.

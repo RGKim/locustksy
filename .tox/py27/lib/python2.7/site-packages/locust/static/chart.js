@@ -82,7 +82,7 @@
             this.dates.push(new Date().toLocaleTimeString());
             var seriesData = [];
             for (var i=0; i<values.length; i++) {
-                var value = Math.round(values[i] * 100) / 100;
+                var value = (Math.round(values[i] * 100) / 100).toFixed(3);
                 this.data[i].push(value);
                 seriesData.push({data: this.data[i]});
             }
